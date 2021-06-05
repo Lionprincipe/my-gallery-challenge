@@ -13,6 +13,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 8.5em;
   font-size: 62.5%;
+  min-width: 37.5em;
+  max-height: 77.7em;
+  position: relative;
+}
+
+main {
+  max-width: 37.5em;
+  margin: 0 auto;
 }
 
 a {
@@ -132,18 +140,23 @@ footer p strong {
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 600px) {
   body {
-    font-size: 62.5%;
+    font-size: calc(562.5px * 10 / 375);
+  }
+}
+
+@media only screen and (min-width: 868px) {
+  body {
+    font-size: calc(868px * 10 / 1440);
     padding-bottom: 17.5em;
-    max-height: 1577px;
-    overflow: hidden;
+    max-height: 157.7em;
   }
 
   main {
-    max-width: 860px;
+    max-width: 86em;
     margin: 0 auto;
-    padding-left: 4px;
+    padding-left: 0.4em;
   }
   .profile__card {
     padding-top: 6em;
@@ -192,5 +205,17 @@ footer p strong {
     grid-template-columns: 27.5em 27.5em 27.5em;
 
     grid-gap: 3.2em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  body {
+    font-size: calc(1080px * 10 / 1440);
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    font-size: 62.5%;
   }
 }
