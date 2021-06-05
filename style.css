@@ -14,6 +14,7 @@ body {
   padding-bottom: 8.5em;
   font-size: 62.5%;
 }
+
 a {
   text-decoration: none;
   color: currentColor;
@@ -40,7 +41,7 @@ h2 {
 }
 
 .profile__card h1 {
-  margin-top: 12px;
+  margin-top: 0.857em;
   color: #4e5150;
   font-size: 1.4em;
   line-height: 1.21em;
@@ -129,4 +130,67 @@ footer p {
 }
 footer p strong {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    font-size: 62.5%;
+    padding-bottom: 17.5em;
+    max-height: 1577px;
+    overflow: hidden;
+  }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding-left: 4px;
+  }
+  .profile__card {
+    padding-top: 6em;
+  }
+  .profile__card img {
+    width: 16.2em;
+    height: 16.2em;
+  }
+  .profile__card h1 {
+    margin-top: 0.67em;
+    font-size: 2.4em;
+    line-height: 1.21em;
+  }
+  .profile__card h2 {
+    font-size: 1.4em;
+    line-height: 1.21em;
+    padding-top: 0.57em;
+  }
+  .profile__card__tags__container {
+    padding-top: 2.4em;
+  }
+
+  .profile__card__tag {
+    width: 10em;
+    height: 6.7em;
+  }
+
+  .profile__card__tag:not(:last-child) {
+    margin-right: 2.4em;
+  }
+
+  .profile__card__tag span:first-child {
+    font-size: 1.8em;
+    line-height: 1.22em;
+  }
+
+  .profile__card__tag span:last-child {
+    font-size: 1.4em;
+    line-height: 1.21em;
+  }
+
+  .pictures__gallery {
+    padding: 0;
+    padding-top: 6.4em;
+    display: grid;
+    grid-template-columns: 27.5em 27.5em 27.5em;
+
+    grid-gap: 3.2em;
+  }
 }
