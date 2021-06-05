@@ -29,12 +29,12 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 3em;
 }
 
 .profile__card img {
-  width: 102px;
-  height: 102px;
+  width: 10.2em;
+  height: 10.2em;
   display: block;
   border-radius: 12px;
 }
@@ -42,26 +42,26 @@ h2 {
 .profile__card h1 {
   margin-top: 12px;
   color: #4e5150;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1.4em;
+  line-height: 1.21em;
 }
 
 .profile__card h2 {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 1em;
+  line-height: 1.2em;
   color: #a9a9a9;
-  padding-top: 4px;
+  padding-top: 0.4em;
 }
 
 .profile__card__tags__container {
   display: flex;
-  padding-top: 12px;
+  padding-top: 1.2em;
 }
 
 .profile__card__tag {
   border-radius: 12px;
-  width: 78px;
-  height: 52px;
+  width: 7.8em;
+  height: 5.2em;
   background-color: #e5e5e5;
   display: flex;
   flex-direction: column;
@@ -70,27 +70,28 @@ h2 {
 }
 
 .profile__card__tag:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 1.5em;
+}
+
+.profile__card__tag span {
+  font-size: 1.2em;
+  line-height: 1.25em;
 }
 
 .profile__card__tag span:first-child {
-  font-size: 12px;
-  line-height: 15px;
+  color: #4e5150;
 }
 
 .profile__card__tag span:last-child {
-  font-size: 12px;
-  line-height: 15px;
   color: #bdbdbd;
 }
 
 .pictures__gallery {
-  padding: 39px 12px 0;
+  padding: 3.9em 1.2em 0;
   display: grid;
-  grid-template-columns: 110px 110px 110px;
-  /* grid-template-rows: 110px 110px 110px; */
+  grid-template-columns: 11em 11em 11em;
 
-  grid-gap: 12px;
+  grid-gap: 1.2em;
 }
 
 .pictures__gallery img {
@@ -117,13 +118,13 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  padding-bottom: 24px;
+  padding-bottom: 2.4em;
   font-weight: 500;
 }
 footer p {
   text-align: center;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 1.4em;
+  line-height: 1.21em;
   color: #b9bdcf;
 }
 footer p strong {
